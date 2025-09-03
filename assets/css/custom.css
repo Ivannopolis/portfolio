@@ -1,0 +1,114 @@
+/* Quita espacio extra bajo el header */
+.header-area {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+/* Ajusta el espacio superior del banner */
+.main-banner {
+  padding-top: 150px !important;  /* prueba valores 20px, 10px o 0 */
+}
+
+.trending-box .thumb img {
+  width: 100%;              /* que ocupe todo el ancho del contenedor */
+  height: 200px;            /* altura fija (ajusta el número a tu gusto) */
+  object-fit: cover;        /* recorta la imagen para que no se deforme */
+  border-radius: 8px;       /* opcional, para esquinas suaves */
+}
+
+/* Logo más pequeño */
+.header-area .logo img {
+  width: 50px !important; /* ajusta según prefieras */
+  height: auto; /* mantiene proporción */
+}
+
+
+.lista_producto {
+  display: flex;
+
+  gap: 10px; /* espacio entre imágenes */
+  flex-wrap: wrap; /* si no caben, saltan a otra línea */
+}
+
+.lista_producto img {
+  width: auto;   /* ajusta el tamaño que quieras */
+  height: 300px;   /* mantiene la proporción */
+  border-radius: 8px; /* opcional, esquinas redondeadas */
+}
+
+
+.space {
+  height: 50px;
+}
+
+.adjust img {
+  width: 100% !important;
+  height: 200px !important; /* o la altura fija de tu contenedor */
+  object-fit: contain !important;
+  object-position: center;
+  background-color: #fff; /* opcional, rellena el espacio sobrante */
+}
+
+
+.logiciel{
+    margin-left: 10%;
+
+}
+.logiciel h1{
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+}
+
+.single-product.section + .single-product.section {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+
+.univ{
+  margin-top: 100px;
+  margin-left: 10%;
+    
+  display: flex;
+  align-items: center; /* centra verticalmente logo y texto */
+  margin-bottom: 30px; /* espacio entre filas */
+}
+
+.space{
+    
+  display: flex;          /* activa el modo fila */
+  flex-direction: row;    /* (opcional, por defecto ya es fila) */
+  gap: 10px;              /* espacio entre elementos */
+}
+
+.txt{
+  margin-left: 5%;
+
+}
+
+.univ img {
+  width: 150px;
+  height: auto;
+  object-fit: contain;   /* recorta para que no se deforme */
+  align-items: center;      /* centra vertical */
+    
+  height: auto;
+  margin-right: 20px; /* espacio entre logo y texto */
+
+
+
+}
+
+.txt {
+  height: 200px;            /* altura del contenedor */
+  align-items: center;      /* centra vertical */
+}
+
+.aime img{
+  width: 100% !important;
+  height: 200px !important; /* o la altura fija de tu contenedor */
+  object-fit: cover !important;
+  object-position: center;
+  background-color: #fff; /* opcional, rellena el espacio sobrante */
+}
